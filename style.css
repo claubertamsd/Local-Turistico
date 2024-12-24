@@ -50,6 +50,9 @@ img{
   margin: 36px 0;
   background-color: #d9d9d9;
 }
+ul li{
+  color: #0C51A7;
+}
 .content{
   display: flex;
   flex-direction: column;
@@ -67,10 +70,24 @@ img{
   margin-bottom: 8px;
 }
 .title-ul{
+  margin-top: 15px;
   font-weight: bold;
 }
 .list-cards ul {
-  padding-left: 20px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.casais {
+  color: #591B98;
+}
+
+.familias {
+  color: #E5245E;  /* Rosa */
+}
+
+.orcamento {
+  color: #E95E10;
 }
 
 .headline{
@@ -86,8 +103,19 @@ ul li::marker {
 }
 
 footer {
-
-}
-footer p{ 
   text-align: center;
+  font-family: "Alice", serif;
+  font-weight: 100;
+  font-size: 16px;
+  margin-bottom: 50px;
+  
+}
+.description-footer{
+  color: #1E1E1E;
+  text-align: center;
+}
+footer img{
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
 }
